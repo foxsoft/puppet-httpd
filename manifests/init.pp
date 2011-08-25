@@ -1,4 +1,4 @@
-class apache {
+class httpd {
 
   service {"httpd":
     ensure => running
