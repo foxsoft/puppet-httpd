@@ -1,7 +1,7 @@
 class httpd {
 
   service {"httpd":
-    ensure => running
+    ensure => running,
     require => Package["httpd"]
   }
 }
